@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    
+} 
+
+.tetromino{
+    background-color: silver;
+}
+
+.mini-grid{
+     width: 80px;
+     height:80px;
+     display: flex;
+     flex-wrap: wrap;
+     background-color: lightskyblue;
+     margin-left: .5rem;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
